@@ -1,13 +1,28 @@
 .hero {
     width: 100%;
     height: 421px;
-    background: url(../images/team-1280.jpg) center bottom no-repeat;
+    background: url(../images/gradienthero.jpg) center bottom no-repeat;
     background-size: cover;
     z-index: -2;
     @include tablet {
         height: 421px;
-        background: url(../images/team-1280.jpg) center bottom no-repeat;
+        background: url(../images/gradienthero.jpg) center bottom no-repeat;
         background-size: cover;}
     @include desktop {
         height: 550px;}
+    &__cover{
+        display: flex;
+        justify-content: center;  
+        .cover {
+            width: 93.7%;
+            margin: auto;
+            max-height: 400px;
+            max-width: 500px;
+        @include tablet {
+            max-height: 700px;
+            max-width: 700px;
+            position: relative;
+            top: -190px;}
+        }
+    }
 } 
