@@ -22,6 +22,12 @@
             padding:0;
             margin: auto;
             margin-top: 30px;
+        @include tablet {
+            margin-top: 45px; 
+        }
+        @include desktop {
+            margin-top: 55px;
+        }    
         }
         &.text {
             width: 90.6%;

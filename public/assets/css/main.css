@@ -1047,6 +1047,10 @@ li {
     padding-top: 0px;
   }
 
+  .main__contact.title {
+    margin-top: 45px;
+  }
+
   .contact-form .form {
     width: 100%;
   }
@@ -1279,6 +1283,10 @@ li {
 
   .main__contact.title {
     margin-top: 45px;
+  }
+
+  .main__contact.title {
+    margin-top: 55px;
   }
 
   .main__contact.text.p {
