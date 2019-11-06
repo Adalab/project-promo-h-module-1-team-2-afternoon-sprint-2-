@@ -21,8 +21,11 @@
         color: #099d8d;
         text-align: center;
         @include tablet {
-            margin-top: 45px;
+            margin-top: 48px;
             margin-bottom: 36px;}
+        @include desktop {
+            margin-top: 55px;
+        }
     }
     
     .presentation {

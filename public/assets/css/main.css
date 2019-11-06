@@ -245,11 +245,7 @@ li {
 .hero {
   width: 100%;
   height: 421px;
-<<<<<<< HEAD
-  background: url(../images/hero-mobile.jpg) center bottom no-repeat;
-=======
   background: url(../images/team-1280.jpg) center bottom no-repeat;
->>>>>>> fe2b993214a9543dbbde8766a41664c5fd07b1fa
   background-size: cover;
   z-index: -2;
 }
@@ -300,10 +296,11 @@ li {
   -ms-flex-pack: center;
   justify-content: center;
   z-index: 0;
+  padding-top: 35px;
 }
 
 .about-us .title {
-  padding-top: 30px;
+  padding-top: 15px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 0;
@@ -394,6 +391,11 @@ li {
   color: #099d8d;
   text-align: center;
   text-transform: none;
+}
+
+.quienes-somos-ancla {
+  position: relative;
+  top: -60px;
 }
 
 .persons {
@@ -846,11 +848,13 @@ li {
 }
 
 .wrapper .main-content {
-  position: relative;
-  top: -40px;
-  padding-top: 0;
-  margin-top: 0;
+  margin-bottom: 40px;
   display: block;
+}
+
+.wrapper .main-content .header-ancla {
+  position: relative;
+  top: -55px;
 }
 
 .wrapper .contact-wrapper {
@@ -892,11 +896,12 @@ li {
 
   .about-us {
     margin-bottom: 30px;
-    margin-top: 45px;
+    margin-top: 0;
+    padding-top: 0;
   }
 
   .about-us .title {
-    padding-top: 0;
+    padding-top: 3px;
     margin-top: 0;
     margin-bottom: 0;
     color: #099d8d;
@@ -931,6 +936,10 @@ li {
     margin-top: 15px;
   }
 
+  .quienes-somos-ancla {
+    top: 0;
+  }
+
   .persons {
     width: 89%;
     padding-bottom: 0;
@@ -939,7 +948,7 @@ li {
   }
 
   .persons h2 {
-    margin-top: 45px;
+    margin-top: 48px;
     margin-bottom: 36px;
   }
 
@@ -1151,7 +1160,14 @@ li {
   }
 
   .wrapper .main-content {
-    top: -80px;
+    padding-top: 0px;
+    margin-bottom: 55px;
+    position: relative;
+    top: -35px;
+  }
+
+  .wrapper .main-content .header-ancla {
+    top: -40px;
   }
 }
 
@@ -1174,11 +1190,12 @@ li {
 
   .about-us {
     width: 100%;
-    margin-top: 45px;
+    margin-top: 0px;
+    padding-top: 0;
   }
 
   .about-us .title {
-    margin-top: 0;
+    padding-top: 0;
     margin-bottom: 0;
     font-family: 'Rubik', sans-serif;
     font-size: 24px;
@@ -1241,6 +1258,10 @@ li {
     width: 77%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .persons h2 {
+    margin-top: 55px;
   }
 
   .persons .presentation.left .description {

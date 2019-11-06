@@ -6,20 +6,28 @@
   border: 1px solid #b8b8b9;
   box-sizing: border-box;
   justify-content: center;
+  
 
 
   .hero {
     height: 421px;}
 
   .main-content {
-    position: relative;
-    top:-40px;
-    padding-top: 0;
-    margin-top: 0;
+    margin-bottom: 40px;
     display: block;
 
     @include tablet {
-      top:-80px;}
+      padding-top: 0px;
+      margin-bottom: 55px;
+      position: relative;
+      top: -35px;}
+  
+  .header-ancla {
+    position: relative;
+    top: -55px;
+    @include tablet {
+    top: -40px;}
+  }
 
   }
 }

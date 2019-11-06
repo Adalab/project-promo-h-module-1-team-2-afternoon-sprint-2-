@@ -92,3 +92,11 @@
         }
     }
   }
+
+  .quienes-somos-ancla {
+    position: relative;
+    top: -60px;
+    @include tablet {
+        top: 0;
+    }
+  }
