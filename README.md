@@ -1,5 +1,5 @@
 ![Adalab](_src/assets/images/image-readme.png)
-# Contact us!.
+# Contact us!
 Interfaz diseñada para facilitar el contacto de los grupos de trabajo de las adalabers.
 Esta se compone de dos pages. La primera tiene:
 1. Un header fijo con el logo y el nombre del grupo además de un menú de navegación.
