@@ -14,10 +14,11 @@
         display: flex;
         justify-content: center;  
         .cover {
-            max-height: 470px;
+            max-width: 300px;
             position: relative;
-            top: -45px;
+            top: -10px;
             @include tablet {
+                max-width: none;
                 max-height: 600px;
                 top: -140px;
             }
