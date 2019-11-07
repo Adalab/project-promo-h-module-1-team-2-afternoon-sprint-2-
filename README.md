@@ -2,10 +2,10 @@
 # Contact us!.
 Interfaz diseñada para facilitar el contacto de los grupos de trabajo de las adalabers.
 Esta se compone de dos pages. La primera tiene:
--Un header fijo con el logo y el nombre del grupo además de un menú de navegación.
--Un hero con una imagen de fondo y otra imagen vectorial en representación a las componentes del grupo y nuestro trabajo.
--Tres secciones principales: una con la descripción de equipo, la segunda con las fortalezas del grupo y las oportunidades que se nos presentan y por último, unas cards con los perfiles de las componentes para conocernos mejor.
--Un footer con otro menú de navegación, el logo de Adalab enlazando al home y un copyright.
+1. Un header fijo con el logo y el nombre del grupo además de un menú de navegación.
+2. Un hero con una imagen de fondo y otra imagen vectorial en representación a las componentes del grupo y nuestro trabajo.
+3. Tres secciones principales: una con la descripción de equipo, la segunda con las fortalezas del grupo y las oportunidades que se nos presentan y por último, unas cards con los perfiles de las componentes para conocernos mejor.
+4. Un footer con otro menú de navegación, el logo de Adalab enlazando al home y un copyright.
 
 Entre los enlaces de los menús de navegación se encuentra "contacto" que redirige a la segunda page, donde hay un formulario para enviar un mensaje a nuestro correo grupal.
 
