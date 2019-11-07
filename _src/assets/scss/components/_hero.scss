@@ -14,15 +14,18 @@
         display: flex;
         justify-content: center;  
         .cover {
-            width: 93.7%;
-            margin: auto;
-            max-height: 400px;
-            max-width: 500px;
-        @include tablet {
-            max-height: 700px;
-            max-width: 700px;
+            max-height: 470px;
             position: relative;
-            top: -190px;}
+            top: -45px;
+            @include tablet {
+                max-height: 600px;
+                top: -140px;
+            }
+            @include desktop {
+                max-height: 700px;
+                max-width: 700px;
+                position: relative;
+                top: -190px;}
         }
     }
 } 

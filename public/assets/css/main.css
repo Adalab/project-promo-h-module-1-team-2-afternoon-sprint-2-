@@ -260,10 +260,9 @@ li {
 }
 
 .hero__cover .cover {
-  width: 93.7%;
-  margin: auto;
-  max-height: 400px;
-  max-width: 500px;
+  max-height: 470px;
+  position: relative;
+  top: -45px;
 }
 
 .claim {
@@ -744,8 +743,8 @@ li {
   width: 12px;
   margin-left: 3px;
   margin-top: 3px;
-  -webkit-animation: 1700ms pawAnimation ease-in-out 1.3s;
-  animation: 1700ms pawAnimation ease-in-out 1.3s;
+  -webkit-animation: 1700ms pawAnimation ease-in-out 1.8s;
+  animation: 1700ms pawAnimation ease-in-out 1.8s;
   -webkit-animation-fill-mode: backwards;
   animation-fill-mode: backwards;
   -webkit-animation-iteration-count: 3;
@@ -926,10 +925,8 @@ li {
   }
 
   .hero__cover .cover {
-    max-height: 700px;
-    max-width: 700px;
-    position: relative;
-    top: -190px;
+    max-height: 600px;
+    top: -140px;
   }
 
   .claim {
@@ -1238,6 +1235,13 @@ li {
 @media all and (min-width: 1200px) {
   .hero {
     height: 550px;
+  }
+
+  .hero__cover .cover {
+    max-height: 700px;
+    max-width: 700px;
+    position: relative;
+    top: -190px;
   }
 
   .claim {
