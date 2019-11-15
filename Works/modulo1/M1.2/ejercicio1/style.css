@@ -1,0 +1,26 @@
+body {
+    margin: 3%;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+th {
+    text-transform: uppercase;
+    background: paleturquoise;
+    padding: 0.5%;
+    width: 2%;
+    
+}
+
+.category {
+    background: pink;
+}
+
+td {
+    background: #eae2b7;
+    padding: 1%;
+    vertical-align: top;
+}

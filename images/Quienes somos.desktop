@@ -1,0 +1,6 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Enlace hacia Quienes somos
+Type=Link
+URL=http://localhost:3000/index.html#quienes-somos
+Icon=text-html

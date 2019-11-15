@@ -1,0 +1,14 @@
+.wrapper {
+  width:500px;
+  height: 5005px;
+  display: inline-flex;
+  /*flex-direction: column;*/
+}
+
+p {
+background-color: blueviolet;
+color:#000000;
+border: 1px solid white;
+box-sizing: border-box;
+display: block;
+}

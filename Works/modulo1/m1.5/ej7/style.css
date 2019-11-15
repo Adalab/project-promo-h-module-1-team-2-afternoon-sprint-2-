@@ -1,0 +1,10 @@
+.wrapper {
+  background-color: aquamarine;
+  max-width: 600px;
+  height: 600px;
+}
+
+p {
+  transform: translate(7%, 255px);
+  width: 86%;
+}

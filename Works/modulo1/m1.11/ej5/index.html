@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Hola mundo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./normalize.css" rel="stylesheet" type="text/css">
+    <link href="./style.css" rel="stylesheet" type="text/css">
+  </head>
+
+
+<form action="" method="post">
+
+<fieldset>
+    <legend>Nombre</legend>
+  <label for="firstName"></label>
+    <input placeholder="Nombre" id="firstName" type="text" name="firstName" required/>
+
+    <label for="lastName"></label>
+    <input placeholder="Apellido" id="lastName" type="text" name="lastName" required/>
+
+</fieldset>
+
+<fieldset>
+    <legend>Nombre de usuario</legend>
+    <label for="email-tel"></label>
+    <input placeholder="@gmail.com" type="text" id="email-tel" name="email-tel" required/>
+</fieldset>
+
+<fieldset>
+    <legend>Contraseña</legend>
+    <label for="password">
+    <input type="password" id="password" name="password2" required/>
+</fieldset>
+    
+<fieldset>
+    <legend>Confirma tu contraseña</legend>
+    <label for="password2">
+    <input  type="password" id="password2" name="password2" required/>
+</fieldset>
+
+
+<fieldset>
+    <legend>Fecha de nacimiento</legend>
+
+    <label for="dayBirthday"></label>
+    <input placeholder="Día" id="dayBirthday" type="text" name="dayBirthday" required/>
+
+  <label for="monthBirthday"></label>
+  <select id="monthBirthday" name="monthBirthday" required>
+    <option value="0">Month</option>
+    <option value="january">Jan</option>
+    <option value="february">Feb</option>
+    <option value="march">Mar</option>
+    <option value="april">Apr</option>
+    <option value="may">May</option>
+    <option value="june">Jun</option>
+    <option value="july">Jul</option>
+    <option value="august">Aug</option>
+    <option value="september">Sep</option>
+    <option value="october">Oct</option>
+    <option value="november">Nov</option>
+    <option value="december">Dec</option>
+  </select>
+
+  <label for="yearBirthday"></label>
+    <input placeholder="Año" id="yearBirthday" type="text" name="yearBirthday" required/>
+  </fieldset>  
+
+  <fieldset>       
+  <legend>Sexo</legend>
+    <label for="gender"></label>
+  <select id="gender" name="gender" required>
+    <option value="0">Selecciona tu género</option>
+    <option value="masculino">Masculino</option>
+    <option value="femenino">Femenino</option>
+    <option value="otro">Otro</option>
+  </select>
+</fieldset>  
+
+
+<fieldset>       
+    <legend>Teléfono móvil</legend>
+    <label for="flag"></label>
+  <select id="flag" name="flag" required>
+    <option class="spain" value="0"></i></option>
+    <option class="germany"></option>
+    <option class="USA"></option>
+  </select>
+
+  <label for="tel"></label>
+  <input type="number" id="tel" name="tel" value="+34" pattern="[0-9]{9}" required/>
+</fieldset>  
+
+<fieldset>       
+    <legend>Tu dirección de correo actual</legend>
+    <label for="email"></label>
+    <input type="email" id="email" name="email" required/>
+  </fieldset> 
+
+<fieldset>       
+    <legend>Ubicación</legend>
+      <label for="country"></label>
+    <select id="country" name="country" required>
+      <option style="background-image:url(./img/002-espana.png);" value="España">España</option>
+      <option value="noEspaña">Otro</option>
+    </select>
+  </fieldset> 
+
+    <input type="submit" value="Siguiente paso" />
+  </form>

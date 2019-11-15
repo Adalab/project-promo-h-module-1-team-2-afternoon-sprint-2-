@@ -1,0 +1,29 @@
+body {
+    font-size: 18px;
+    font-family: 'Tahoma, Geneva, Verdana, sans-serif';
+    color: rebeccapurple;
+    background: mediumpurple;
+    line-height; 1.5;
+}
+
+main {
+    font-size: 22px;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+h1 {
+    font-size: 34px;
+    padding-top: 1%;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+aside {
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}

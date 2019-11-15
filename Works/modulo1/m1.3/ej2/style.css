@@ -1,0 +1,18 @@
+.block {
+    display: block;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+.inline {
+    display: inline;
+    background-color: rgb(214, 132, 24);
+    width: 100px;
+    height: 100px;
+}
+.inline-block {
+    display: none;
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+}

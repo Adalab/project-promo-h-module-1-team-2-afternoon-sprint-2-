@@ -1,0 +1,16 @@
+@import 'core/settings';
+@import 'core/links';
+
+@import 'layout/header';
+@import 'layout/secondSection';
+@import 'layout/firstSection';
+
+
+body {
+	margin: 0;
+	height: 100vh;
+}
+
+._main.html {
+	height: 100%;
+}

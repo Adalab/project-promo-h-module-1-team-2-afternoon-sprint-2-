@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+article {
+  width: 50%;
+  -webkit-order: 2;
+  order: 2
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+.important {
+  flex-basis: 100%;
+  /*width: 100%;*/
+  -webkit-order: 1;
+  order: 1;
+}

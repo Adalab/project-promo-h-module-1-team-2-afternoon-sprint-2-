@@ -1,0 +1,46 @@
+
+
+.firstForm {
+  background-color: rgb(202, 201, 201);
+  border-radius: 5%;
+  width: 50%;
+  padding: 15px;
+}
+
+.part-one {
+  display: flex;
+  flex-direction: column;
+}
+
+.part-one input {
+  margin-bottom: 20px;
+}
+
+.part-two {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.part-two input {
+  margin-bottom: 10px;
+}
+
+
+.part-three {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+
+.part-three 
+
+.part-three label{
+  display: inline;
+}
+
+.part-four {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+}

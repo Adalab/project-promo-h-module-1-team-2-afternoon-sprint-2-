@@ -1,0 +1,13 @@
+.container-fluid{
+  height: 100%;
+  display: grid;
+}
+
+.row {
+  background: deeppink;
+  color: white;
+}
+
+.row div {
+  border: 5px solid white;
+}

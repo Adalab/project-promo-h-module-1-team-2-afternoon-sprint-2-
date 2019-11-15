@@ -1,0 +1,19 @@
+
+
+img {
+  width: 42px;
+  height: 42px;
+  position: relative;
+  left: 730px;
+  /*transform: translate(460px)*/
+
+}
+h1 {
+  display: inline;
+  margin: 0;
+}
+
+a {
+  display: block;
+  text-align: center;
+}

@@ -1,0 +1,19 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  color: blue;
+}
+
+p {
+  color: blueviolet;
+}
+
+.lastChild {
+  color: blue;
+}
+
+li {
+  color: pink;
+}

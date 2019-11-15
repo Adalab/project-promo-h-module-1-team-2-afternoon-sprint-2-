@@ -1,0 +1,16 @@
+.wrapper {
+  width: 100%;
+  height: 100vh;
+}
+
+.pop {
+  margin-top: 30px;
+  background-color: blueviolet;
+  position: absolute;
+  bottom: -40px;
+}
+
+.wrapper:hover > .pop {
+  bottom: 50%;
+  transform: bottom ease-in 5s;
+}
