@@ -16,5 +16,7 @@ function changeColor(event) {
     myDiv.classList.remove('redBackgound');
     myDiv.classList.add('purpleBackground');
   }
+}
+
 
 document.addEventListener("keypress", changeColor);

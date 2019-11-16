@@ -5,22 +5,28 @@ Modificar el texto del span .favorite sustituyéndolo por 'Quitar' si en ese mom
 Nota: con querySelector buscamos un elemento dentro de otro. Hasta ahora lo habíamos usado para buscar dentro de document (todo nuestro documento HTML), con document.querySelector().
 Si tuviéramos una constante llamada, por ejemplo, sectionAboutElement en la que hemos guardado un elemento de HTML, podríamos buscar dentro él otro elemento, tal que así sectionAboutElement.querySelector().*/
 
-let li = document.querySelectorAll('.teacher');
+const teachers= document.querySelector('.teachers');
 
-function changeColor () {
-  event.currentTarget.classList.toggle('teacher--selected');
-  const chosenTeacher = event.currentTarget;
-
-  if (chosenTeacher.classList.contains('teacher--selected')) {
-    chosenTeacher.querySelector('.favorite').innerHTML = 'Quitar';
-    
-} else {
-    chosenTeacher.classList.remove('teacher--selected');
-    chosenTeacher.querySelector('.favorite').innerHTML = 'Añadir';
-}
+function changeColor(event) {
+  if (event.target === event.currentTarget) {
+    return; // No ejecutar el resto de la función
   }
 
-for (let i = 0; i < li.length; i++) {
-  li[i].addEventListener('click', changeColor); }
+  const isTeacher = event.target.classList.contains('teacher');
+  const chosenTeacher = isTeacher ? event.target : event.target.parentElement;
+
+  // event.stopPropagation();
+
+  chosenTeacher.classList.toggle('teacher--selected');
+
+  if (chosenTeacher.classList.contains('teacher--selected')) {
+    chosenTeacher.querySelector('.favorite').innerHTML = 'Quitar';  
+  } else {
+    chosenTeacher.classList.remove('teacher--selected');
+    chosenTeacher.querySelector('.favorite').innerHTML = 'Añadir';
+  }
+}
+
+teachers.addEventListener('click', changeColor);
 
 
